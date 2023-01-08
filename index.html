@@ -5,6 +5,7 @@
         <title>Comfy Cartel</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <div class="background">
@@ -37,11 +38,11 @@
         </div>
     <div class="wrap">
         <div class="product-chair">
-            <div class="animate__animated animate__fadeInRight animate__delay-6s">
-                <div class="chair">
-                    <h2>your room deserves the epitome of comfort</h2>
-                    <p><a href="chair.html" target="_self">Shop Chair</a></p>
-                </div>
+                <div data-aos="fade-left">
+                    <div class="chair">
+                        <h2>your room deserves the epitome of comfort</h2>
+                        <p><a href="chair.html" target="_self">Shop Chair</a></p>
+                    </div>
             </div>
         </div>
 
@@ -120,7 +121,9 @@
      
 
 
-       
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> 
+            AOS.init();
+          </script>
         
     </body>
 </html>
