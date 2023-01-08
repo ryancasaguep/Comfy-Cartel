@@ -24,7 +24,7 @@ body{
 .container .left{
     position: relative;
     /* background-color: #102841; */
-    background-color: red; 
+    background-color: #283044; 
     padding: 40px;
 }
 .profile-section{
@@ -285,11 +285,11 @@ body{
     }
 }
 
-.left{
+.shapedividers_com-5497{
     overflow:hidden;
     position:relative;
     }
-    .left::before{
+    .shapedividers_com-5497::before{
     content:'';
     font-family:'shape divider from ShapeDividers.com';
     position: absolute;
@@ -307,7 +307,7 @@ body{
     }
     
     @media (min-width:768px){
-    .left::before{
+    .shapedividers_com-5497::before{
     background-size: 124px 200%;
     background-position: 0% 50%;  
     transform: rotateX(180deg); 
@@ -315,7 +315,7 @@ body{
     }
      
     @media (min-width:1025px){
-    .left::before{ 
+    .shapedividers_com-5497::before{ 
     bottom: -0.1vw;
     left: -0.1vw;
     right: -0.1vw;
