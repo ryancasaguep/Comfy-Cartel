@@ -18,17 +18,20 @@ body{
     min-height: 1000px;
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 .container .left{
     position: relative;
-    overflow:hidden;
     /* background-color: #102841; */
     background-color: #283044; 
     padding: 40px;
-}    
-.container .left::before{   
+} 
+.divider{
+    position: relative;
+    overflow:hidden;
+}   
+.divider::before{   
     content:'';
         font-family:'shape divider from ShapeDividers.com';
         position: absolute;
@@ -320,7 +323,7 @@ body{
     } */
     
     @media (min-width:768px){
-    .left::before{
+    .divider::before{
     background-size: 124px 200%;
     background-position: 0% 50%;  
     transform: rotateX(180deg); 
@@ -328,7 +331,7 @@ body{
     }
      
     @media (min-width:1025px){
-    .left::before{ 
+    .divider::before{ 
     bottom: -0.1vw;
     left: -0.1vw;
     right: -0.1vw;
