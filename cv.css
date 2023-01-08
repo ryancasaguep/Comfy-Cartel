@@ -285,11 +285,11 @@ body{
     }
 }
 
-.shapedividers_com-5497{
+.left{
     overflow:hidden;
     position:relative;
     }
-    .shapedividers_com-5497::before{
+    .left::before{
     content:'';
     font-family:'shape divider from ShapeDividers.com';
     position: absolute;
@@ -307,7 +307,7 @@ body{
     }
     
     @media (min-width:768px){
-    .shapedividers_com-5497::before{
+    .left::before{
     background-size: 124px 200%;
     background-position: 0% 50%;  
     transform: rotateX(180deg); 
@@ -315,7 +315,7 @@ body{
     }
      
     @media (min-width:1025px){
-    .shapedividers_com-5497::before{ 
+    .left::before{ 
     bottom: -0.1vw;
     left: -0.1vw;
     right: -0.1vw;
