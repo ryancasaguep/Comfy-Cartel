@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left{
+    position: relative;
+    /* background-color: #102841; */
+    background-color: #283044; 
+    padding: 40px;
+}
+.profile-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255,255, 0.2);
+}
+.profile-section .profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-section .profile img{
+    position: absolute;
+    top:0;
+    /* left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; */
+   
+}
+
+.profile-section h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile-section h2 span{
+    font-size: 0.8em;
+}
+
+
+
+.contact{
+    padding-top: 40px;
+}
+.contact h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1;
+    margin-bottom: 20px;
+}
+.contact ul {
+    position: relative;
+}
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+ .contact ul li .icon{
+    color: #7389ae; 
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+} 
+
+/*EDUCATION*/
+
+
+.contact-educ ul {
+    position: relative;
+}
+.contact-educ ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+
+
+
+/*EDUCATION*/
+
+
+.contact-educ{
+    padding-top: 40px;
+}
+.contact-educ h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1;
+} 
+.contact-educ li{
+    margin-bottom: 15px;
+}
+.contact-educ li h5{
+    color: #7389ae;
+    font-weight: 500;
+}
+.contact-educ li h4:nth-child(2){
+    color: white;
+    font-weight: 500;
+}
+.contact-educ li h4{
+    color: white;
+    font-weight: 300;
+}
+
+/*SKILLS*/
+
+.contact-skills{
+    padding-top: 40px;
+}
+.contact-skills h3{
+    /* color: #102841;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1;
+    margin-bottom: 20px; */
+    color: #102841;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.contact-skills ul {
+    position: relative;
+}
+.contact-skills ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    
+}
+.contact-skills ul li span{
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.container .right{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.about h2{
+    color: #102841;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about ul {
+    position: relative;
+}
+.about ul li {
+    position: relative;
+    list-style: none;
+}
+.about ul li span{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: black;
+}
+
+.about .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10px ;
+}
+.about .box h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about .box  .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+}
+.about .box  .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:  #7389ae;
+}
+.box h4{
+    display: inline-block;
+}
+
+
+
+
+
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interest ul li .fa-solid{
+    color: #7389ae;
+    width: 25px;
+}
+@media (max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .interest ul{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width: 600px){
+    
+    .interest ul{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .about .box{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
