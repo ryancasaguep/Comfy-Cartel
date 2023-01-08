@@ -243,7 +243,12 @@ body{
 
 
 
-
+.interest h2{
+    color:#102841;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
