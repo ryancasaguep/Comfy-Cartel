@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+} */
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    min-width: 1000px;
+    height: 100px;
+    position: relative;
+}
+.background{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(res1.jpg);
+    background-color: #0C1E31;
+    background-position:center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1;
+    padding: 1.5em 2.5em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.nav label{
+    font-size: 3.5rem;
+    color: #EFF5FB;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+.nav ul li a{
+    position: relative;
+    text-decoration: none;
+    padding: 1rem;
+    color: #EFF5FB ;
+    position: relative;
+    font-size: 1.1rem;
+    letter-spacing: 1;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+
+.mantra{
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    width: 100%;
+    color: #EFF5FB;
+}
+.mantra .intro{
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1;
+}
+.mantra .sub-intro{
+    font-size: 1rem;
+}
+
+
+.promo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #0C1E31;
+}
+.promo p{
+    margin: 5px 10px;
+}
+.fa-solid{
+    color: #0C1E31;
+}
+.chair{
+    position: relative;
+    background-image: url(ass1.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px 0;
+}
+.chair .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+    margin: 40px;
+}
+.chair .disc p{
+    margin: 10px;
+} 
+.chair .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.chair .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+}
+
+
+
+.sofa{
+    position: relative;
+    background-image: url(ass5.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    margin: 40px 0;
+}
+.sofa .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+    margin: 40px;
+}
+.sofa .disc p{
+    margin: 10px;
+} 
+.sofa .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.sofa .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+} 
+
+
+
+.bed{
+    position: relative;
+    background-image: url(ass4.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    margin: 40px 0;
+}
+.bed .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+    margin-top: 50px;
+    text-align: center;
+}
+.bed .disc p{
+    margin: 10px;
+} 
+.bed .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.bed .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+} 
+
+
+.table{
+    position: relative;
+    background-image: url(ass3.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px 0;
+}
+.table .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+    margin: 40px;
+}
+.table .disc p{
+    margin: 10px;
+} 
+.table .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.table .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+}
+
+
+
+.wall{
+    position: relative;
+    background-image: url(/AEKI/wall-bg.webp);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    margin: 40px 0;
+}
+.wall .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+    margin: 40px;
+}
+.wall .disc p{
+    margin: 10px;
+} 
+.wall .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.wall .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+} 
+
+
+
+footer{
+    background-color: rgb(51, 51, 51);
+    padding: 30px; 
+    position: relative;
+}
+footer h3{
+    margin-top: 5px;
+    color: white;
+    font-size: 12px;
+}
+.sub-foot{
+    margin-top: 20px;
+}
+footer p{
+    font-size: 10px;
+    color:  #cccccc;
+    margin-top: 10px;
+}
+.foot-1{
+    margin: 10px;
+    position: relative;
+}
+.foot-2{
+    margin: 10px;
+    position: relative;
+}
+.foot-3{
+    margin: 10px;
+    position: relative;
+}
+.fa-facebook{
+    color: white;
+    margin-left: 5px;
+}
+.fa-instagram{
+    margin-left: 5px;
+    color: white;
+}
+.fa-twitter{
+    color: white;
+    margin-left: 5px;
+}
+.bord{
+    border-bottom: 2px solid #4d4d4d;
+    display: flex;
+}
+.foot-4{
+    display: inline-block;
+}
+.foot-4 label{
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    display: inline-block;
+}
+.foot-5{
+    margin-left: 20%;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-right: auto;
+    text-align: center;
+   
+}
+.foot-5 h3{
+    font-size: 15px;
+ 
+}
+.foot-5 p{
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+/* .product-chair{
+    position: relative;
+    width: 100%;
+    
+}
+.chair{
+    position: relative;
+    background-image: url(/AEKI/empty-chair.webp);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+}
+.chair .disc{
+    position: relative;
+    color: #0C1E31;
+    text-transform: lowercase;
+}
+.chair .disc p{
+    margin: 10px;
+}
+.chair .disc a{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #0C1E31;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: #0C1E31;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.chair .disc a:hover{  
+    box-shadow: inset 200px 0 0 0 #0C1E31;
+    color: #EFF5FB;
+
+
+
+} */
+
+
+
+            /*RESPONSIVE SHIII*/
+
+/* @media (max-width: 700px) {
+    .nav label{
+        font-size: 2.5rem;
+        color: white;
+        position: relative;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+    }
+    .nav ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 0.5rem;
+        color: white ;
+        position: relative;
+        font-size: 0.8rem;
+    }
+    .mantra .intro{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        letter-spacing: 1;
+    }
+    .mantra .sub-intro{
+        color: white;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1;
+        padding: 2em 1.2em;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .nav label{
+        font-size: 1.8rem;
+        color: white;
+        position: relative;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .nav ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 0.1rem;
+        color: white ;
+        position: relative;
+        font-size: 0.7rem;
+    }
+    .mantra{
+        position: relative;
+        padding-top: 5rem;
+        text-align: center;
+        width: 100%;
+    }
+    .mantra .intro{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .mantra .sub-intro{
+        color: white;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 400px) {
+    .nav label{
+        font-size: ;
+        color: white;
+        position: relative;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+    }
+    .nav ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    
+    }
+    .nav ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 1px;
+        color: white ;
+        position: relative;
+        font-size: 0.5rem;
+    }
+    .mantra .intro{
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .mantra .sub-intro{
+        color: white;
+        font-size: 0.5rem;
+    }
+} */
+/* .background{
+   position: relative;
+   height: 500px;
+}
+.background img{
+   position: absolute;
+    
+}
+
+
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em 2em;
+    letter-spacing: 1;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.nav label{
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    font-weight: 400;
+    cursor: pointer;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+}
+.nav ul li a{
+    position: relative;
+    text-decoration: none;
+    padding: 1rem;
+    color: white ;
+    position: relative;
+
+}
+.mantra{
+    
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    width: 100%;
+}
+.mantra .intro{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1;
+}
+.mantra .sub-intro{
+    color: white;
+    font-size: 1.2rem;
+}
+.chair{
+    height: 200px;
+}   
+
+
+
+
+@media (max-width: 700px){
+    .nav{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1.5em 2em;
+        letter-spacing: 1;
+    }
+    .nav label{
+        font-size: 2rem;
+        color: white;
+        position: relative;
+    
+    }
+    .nav ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        font-size: 0.7rem;
+    }
+    .nav ul li a{
+        position: relative;
+        text-decoration: none;
+        padding: 1rem;
+        color: white ;
+        position: relative;
+    
+    }
+    .mantra{
+        position: relative;
+        padding-top: 2.5rem;
+        text-align: center;
+        width: 100%;
+    }
+    .mantra .intro{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        letter-spacing: 1;
+    
+    }
+    .mantra .sub-intro{
+        color: white;
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 600px){
+    .mantra .intro{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: red;
+        letter-spacing: 1;
+    
+    }
+}*/
+ 
+
+/* .container{
+    height: 100%;
+    background-image: url(AEKI/bed-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container h1{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 1.5em;
+} */
