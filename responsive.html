@@ -8,19 +8,33 @@
         <title>Image Responsive</title>
         <link rel="stylesheet" href="responsive.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link href="dist/hamburgers.css" rel="stylesheet">
     </head>
     <body>
 
         
             <div class="background">
-                <div class="nav">
-                    <label id="logo">Comfy Cartel</label>
-                    <ul>
-                        <li><a href="cv.html" class="hvr-grow">About Us</a></li>
-                        <li><a href="#" class="hvr-grow">Collections</a></li>
-                        <li><a href="#" class="hvr-grow">Contact Us</a></li>
-                    </ul>
-                </div>
+                <nav class="navbar">
+                    <div class="logo">Comfy Cartel</div>
+
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+
+                    <div class="navbar-link">
+                        <ul>
+                            <li><a href="cv.html" class="hvr-grow">About Us</a></li>
+                            <li><a href="cv.html" class="hvr-grow">Collections</a></li>
+                            <li><a href="cv.html" class="hvr-grow">Contact</a></li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+               
 
                 <div class="mantra">
                     <p class="intro">WHERE DESIGN MEETS COMFORT</p>
@@ -29,13 +43,90 @@
             </div>
 
 
-            
             <div class="promo">
-                <i class="fa-solid fa-shield-halved"></i><p>Secure Payments</p>
+                <ul>
+                    <li><i class="fa-solid fa-shield-halved"></i>Secure Payments</li>
+                    <li><i class="fa-solid fa-arrow-left"></i></i>Fast Returns</li>
+                    <li><i class="fa-solid fa-box-open"></i>Custom Delivery</li>
+                    <li><i class="fa-solid fa-star"></i>Quality Service</li>
+
+                </ul>
+               
+            </div>
+
+
+            <!-- <div class="promo">
+                <div class="icon">
+                    <i class="fa-solid fa-shield-halved">S</i>
+                </div>
+                <div class="secure">
+                    <p>Secure Payments</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-shield-halved">S</i>
+                </div>
+                <div class="secure">
+                    <p>Secure Payments</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-shield-halved">S</i>
+                </div>
+                <div class="secure">
+                    <p>Secure Payments</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-shield-halved">S</i>
+                </div>
+                <div class="secure">
+                    <p>Secure Payments</p>
+                </div>
+            </div>     -->
+
+                
+                <!-- <div class="up">
+                    <p>S</p>
+                    <p>Secure Payments</p>
+                    <p>Secure Payments</p>
+                    <p>Secure Payments</p>
+                </div>
+
+                <div class="down">
+                    <p>Secure Payments</p>
+                    <p>Secure Payments</p>
+                    <p>Secure Payments</p>
+                    <p>Secure Payments</p>
+                </div> -->
+            
+               <!-- <div class="wews">
+                <i class="fa-solid">S</i>
+                </div>
+                <p>Secure Payments</p>
+                <div class="wews">
+                    <i class="fa-solid">S</i>
+                </div>
+                    <p>Secure Payments</p>
+                    <div class="wews">
+                        <i class="fa-solid">S</i>
+                    </div>
+                        <p>Secure Payments</p>
+                        <div class="wews">
+                            <i class="fa-solid">S</i>
+                        </div>
+                            <p>Secure Payments</p>     -->
+                
+                <!-- <i class="fa-solid">S</i>
+                <p>Fast Returns</p>
+                <i class="fa-solid">S</i>
+                <p>Custom Delivery</p>
+                <i class="fa-solid">S</i>
+                <p>Quality Service</p> -->
+
+
+                <!-- <i class="fa-solid fa-shield-halved"></i><p> Secure Payments</p>
                 <i class="fa-solid fa-arrow-left"></i><p>Fast Returns</p>
                 <i class="fa-solid fa-box-open"></i><p>Custom Delivery</p>
-                <i class="fa-solid fa-star"></i><p>Quality Service</p>
-            </div>
+                <i class="fa-solid fa-star"></i>  <p>Quality Service</p>        -->
+            
 
             <div class="chair">
                 <div class="disc">
@@ -76,46 +167,47 @@
 
 
             <footer>
-                <div class="bord">
-                    <div class="foot-1">
-                        <div class="sub-foot">
-                            <h3>Our Company</h3>
-                            <p>Legal Terms</p>
-                            <p>Social Responsibility</p>
-                            <p>Store Lacations</p>
-                        </div>
+                <div class="border">
+                    <div class="foot">
+                            <h3 id="forda-response">Our Company</h3>
+                            <p class="click"><a href="#">Legal Terms</a></p>
+                            <p class="click"><a href="#">Social Responsibility</a></p>
+                            <p class="click"><a href="#">Store Locations</a></p>
                     </div>
         
-                    <div class="foot-2">
-                        <div class="sub-foot">
+                    <div class="foot">
                             <h3>Resources</h3>
-                            <p>FAQs</p>
-                            <p>Customer Service</p>
-                            <p>Design Service</p>
-                        </div>
+                            <p class="click"><a href="#">FAQs</a></p>
+                            <p class="click"><a href="#">Customer Service</a></p>
+                            <p class="click"><a href="#">Design Service</a></p>
                     </div>
         
-                    <div class="foot-3">
-                        <div class="sub-foot">
+                    <div class="foot">
                             <h3>Social Media</h3>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-twitter"></i>
+                            <div class="brands">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
                             <p>Show us your look with:</p>
                             <p>#ComfyStylePH</p>
-                        </div>
+                       
                     </div>
                 </div>
-        
+              
                     <div class="foot-4">
-                        <label>Comfy Cartel</label>
+                            <p class="logo"> Comfy Cartel</p>
+                        
+                    
+                        <div class="official">
+                            <h3>www.comfycartel.com.ph is the Official Website of Comfy Cartel Philippines.</h3>
+                            <p>&copy;2022 Comfy Cartel. All rights reserved. | Terms of Use | Privacy Policy</p>
+                       </div>
                     </div>
-        
-                    <div class="foot-5">
-                        <h3>www.comfycartel.com.ph is the Official Website of Comfy Cartel Philippines.</h3>
-                        <p>&copy;2022 Comfy Cartel. All rights reserved. | Terms of Use | Privacy Policy</p>
-                    </div>
+                
                 </footer>
+
+               
              <!-- <div class="promo">
             <i class="fa-solid fa-shield-halved"></i><p>Secure Payments</p>
             <p>|</p>
@@ -155,10 +247,6 @@
     
          
 
-                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                <script>
-                    AOS.init();
-                </script>
-    
+               <script src="index.js"></script>
     </body>
 </html>

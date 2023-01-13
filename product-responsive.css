@@ -8,7 +8,7 @@
 html,
 body{
     font-family: 'Poppins', sans-serif;
-    min-width: 1000px;
+    min-width: 100%;
     height: 100px;
     background-color: #EFF5FB;
     position: relative;
@@ -75,7 +75,6 @@ input:focus{
     padding: 0em 0.5em;
 }
 .promo{
-    position: relative;
     background-color: #0C1E31;
     color: #EFF5FB;
     display: flex;
@@ -83,9 +82,9 @@ input:focus{
     justify-content: center;
     padding: 0.8em;
     margin: 5px 0;
+    max-width: 100%;
 }
 .promo p{
-    padding: 0em 1em;
     font-size:1rem;
 }
 .promo a{
@@ -106,17 +105,66 @@ input:focus{
     font-size: 2.5rem;
     color:#0C1E31;
 }
-.product{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
-}
-.product img{
-    width: 25%;
 
-}
-.product .disc{
-    color: #0C1E31;
-    display: block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:858px) {
+    .nav .logo{
+        font-size: 2rem;
+        color: #EFF5FB;
+        font-weight: 400;
+        cursor: pointer;
+        padding-left: 0.8em;
+        position: relative;
+    }  
+    .nav ul .search-bar{
+        margin-left: 20%;
+        margin-right: auto;
+        padding: 0px 10px;
+        position: relative; 
+        width: 200px;
+        height: 30px;
+        border: 3px solid #0C1E31;
+        border-radius: 50px;
+        
+    } 
+    .element{
+        width: 100%;
+        height: 100%;
+    }
+    input{
+        margin:5px 0;
+        position: relative;
+        background-color: #EFF5FB;
+        border: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    .nav ul{
+        padding: 0em 2.5em;
+        display: inline-block;
+    }
+    .nav ul a{
+        position: relative;
+        color: #0C1E31;
+        text-decoration: none;
+        font-size: 0.7rem;
+        padding: 0em 0.5em;
+    }
+    .promo p{
+        font-size: 1rem;
+    }
 }
