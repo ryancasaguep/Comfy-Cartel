@@ -137,21 +137,44 @@ body{
 
 
 
-
-.promo{
+.sec1{
+    background-color: #B2BBD2;
+    margin: 50px 0;
+    text-align: start;
     position: relative;
+    padding: 40px 90px 100px 90px;
+}
+.sec1 h1{
+    text-align: center;
+    padding-bottom:20px ;
+}
+.section{
     display: flex;
-    align-items: center;
-    justify-content: center;
-
+ 
 }
-.promo ul li{
+.sec2{
+    font-size: 0.8rem;
+    padding-top:20px;
+    padding-left: 70px;
     position: relative;
-    list-style: none;
-    display: inline-block;
-    margin: 0.5em;
-    
 }
+.sec2 h3{
+    line-height: 19px;
+    letter-spacing: 0.5px;  
+    position: relative; 
+}
+.sec2 p{
+    line-height: 21px;
+    letter-spacing: 0.6px;
+    position: relative;
+}
+.sec2 i{
+    position:absolute ;
+    top: 0.7em;
+    left:0.6em;
+    font-size: 2rem;
+}
+
 
 .chair{
     margin: 40px 0;
@@ -414,6 +437,34 @@ footer .border .foot a{
     .navbar-link.active{
         display: flex;
     }
+
+
+    .sec1{
+        background-color: #B2BBD2;
+        margin: 50px 0;
+        text-align: start;
+        position: relative;
+        padding: 50px;
+    }
+    .sec2{
+        font-size: 0.6rem;
+        padding-top:20px;
+        padding-left: 60px;
+        position: relative;
+    }
+    .sec2 i{
+        position:absolute ;
+        top: 0.7em;
+        left:0.6em;
+        font-size: 1.5rem;
+    }
+    .sec2 p{
+        line-height: 16px;
+        letter-spacing: 0.6px;
+        position: relative;
+    }
+
+
     .chair{
         margin-top: 10px;
         margin-bottom: 0;
@@ -589,25 +640,33 @@ footer .border .foot a{
         margin:auto 5em;
         font-size: 0.6rem;
     }
-    .promo{
-      display: none;
-      justify-content: center;
-      align-items: center;
-    }
-    .promo ul{
-        margin: 0 1rem;
-    }
-    .promo ul li{
-        position: relative;
-        list-style: none;
-        margin: 0.5rem;
-        padding: auto;
-        font-size: 0.5rem;
+    
+
+
+    .sec1 h1{
         text-align: center;
+        padding-bottom:20px;
+        font-size: 1.3rem;
     }
-    .fa-solid{
-      font-size: 0.5rem;
+    .section{
+        display: block;
+        
     }
+    .sec2{
+        font-size: 0.6rem;
+        padding-top:20px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .sec2 i{
+        position:absolute ;
+        top: 0.9em;
+        left:-0.6em;
+        font-size: 1.4rem;
+    }
+
+
+
     .chair .disc{
         position: absolute;
         top: 0;
@@ -736,7 +795,6 @@ footer .border .foot a{
         
     }
     .foot-4 .logo{
-        /* margin-left: 1em; */
         font-size: 3.5rem;
         margin-bottom: 0.1em;
         font-family: 'Cormorant Garamond', serif;
