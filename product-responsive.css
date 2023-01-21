@@ -453,8 +453,8 @@ footer .border .foot a{
     
     .promo .border{
         border: 1.5px solid white;
-        padding-left:1rem;
-        padding-right: 0.95rem;
+        margin-left:1rem;
+        margin-right: 0.95rem;
     }
     
     .sub-header p{
