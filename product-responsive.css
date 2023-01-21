@@ -438,6 +438,24 @@ footer .border .foot a{
 }
 
 @media (max-width:430px) {
+    .promo{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align:left;
+        padding: 0.1rem;
+        background-color: #0C1E31;
+        color: #EFF5FB;
+        font-size: 0.2rem;   
+        
+    }   
+    
+    .promo .border{
+        border: 1.5px solid white;
+        padding-left:1rem;
+        padding-right: 0.95rem;
+    }
     
     .sub-header p{
         margin:10px;
