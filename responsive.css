@@ -56,13 +56,13 @@ body{
     color: #EFF5FB;
 }
 .navbar .logo{
-    font-size: 3.5rem;
-    margin: .5rem;
+    font-size: 2.5rem;
+    margin: 1.5rem;
     font-family: 'Cormorant Garamond', serif;
 
 }
 .navbar .navbar-link{
-    margin: 1rem;
+    margin:  1.5rem;
 }
 .navbar .navbar-link ul{
     margin: 0;
@@ -75,7 +75,8 @@ body{
 .navbar .navbar-link li a{
     text-decoration: none;
     color: #EFF5FB;
-    padding: 1rem;
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
     display: block;
 }
 
@@ -119,20 +120,25 @@ body{
 
 .mantra{
     position: relative;
-    padding-top: 6rem;
     text-align: center;
     width: 100%;
     color: #EFF5FB;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    
 }
 .mantra .intro{
     position: relative;
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: 600;
-    letter-spacing: 1;
 }
 .mantra .sub-intro{
     font-size: 1rem;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -143,6 +149,7 @@ body{
     text-align: start;
     position: relative;
     padding: 40px 90px 100px 90px;
+    line-height: 21px;
 }
 .sec1 h1{
     text-align: center;
@@ -383,7 +390,7 @@ footer .border .foot a{
     margin: auto;
 }
 .foot-4 .logo{
-    margin: auto;
+    margin-left:0.8em;
     font-size: 3rem;
     font-weight: normal;
     font-family: 'Cormorant Garamond', serif;
@@ -397,12 +404,29 @@ footer .border .foot a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 850px){
     .toggle-button{
         display: flex;
     }
     .toggle-button{
-        top: .90rem;
+        top: 1.5rem;
         width: 30px;
         height: 21px;
     }
@@ -420,9 +444,12 @@ footer .border .foot a{
         flex-direction: column;
     }
     .navbar .logo{
-        font-size: 2.5rem;
-        margin: .6rem;
-      
+        font-size: 1.5rem;
+        margin: 1.5rem;
+        
+    }
+    .navbar .navbar-link{
+        margin:   0;
     }
     .navbar-link ul{
         width: 100%;
@@ -437,7 +464,7 @@ footer .border .foot a{
     .navbar-link.active{
         display: flex;
     }
-
+   
 
     .sec1{
         background-color: #B2BBD2;
@@ -571,11 +598,6 @@ footer .border .foot a{
         position: relative;
     }
 
-
-
-    
-
-
     .foot-4{
         display: flex;
         margin: auto;
@@ -583,6 +605,7 @@ footer .border .foot a{
     .foot-4 .logo{
         font-size: 2.4rem;
         font-family: 'Cormorant Garamond', serif;
+        margin: auto;
     }
     .foot-4 .official{
         text-align: center;
@@ -795,7 +818,7 @@ footer .border .foot a{
         
     }
     .foot-4 .logo{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         margin-bottom: 0.1em;
         font-family: 'Cormorant Garamond', serif;
     }
